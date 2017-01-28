@@ -171,7 +171,7 @@ section{
 
 
 .mainbox{
-	display: flex;
+  display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -225,27 +225,27 @@ button{
 
 
  .one{
-	background-image: url('../images/headphones.jpg');
+	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
 }
 
  .two{
-	background-image: url('../images/headphones.jpg');
+	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
 }
 
  .three{
-	background-image: url('../images/headphones.jpg');
+	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
 }
 
  .four{
-	background-image: url('../images/headphones.jpg');
+	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
 }
 
  .five{
-	background-image: url('../images/headphones.jpg');
+	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
 }
 
