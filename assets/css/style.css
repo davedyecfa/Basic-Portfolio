@@ -4,25 +4,27 @@
 	box-sizing: border-box;
 }
 
+header {
 
+
+}
 body{
 	background:lightgrey;
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/swirl_pattern.png");
+  background-image: url("../images/swirl_pattern.png");
 }
 
-#profilepic {
-  width: 40%;
-  height: 40%;
+.page-wrap  {
+  min-height: 100%;
+  margin-bottom: 142px;
+
+
 }
 
 a{
 	text-decoration: none;
 }
-
-
-
 
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -94,17 +96,23 @@ nav{
 section{
 	display: flex;
 	justify-content: space-around;
-	margin:2rem;
+  float: left;
+  margin:10%;
 	margin-top:2.5rem;
 }
 
-
+#profilepic {
+  width: 30%;
+  height: 40%;
+}
 
 .logo{
 	background: rgba(133, 200, 197, 1);
-	padding: 2rem;
-	margin-left: 5.9rem;
-	color:#fff;
+  display: flex;
+  padding: 2rem;
+	margin-left: 10%;
+  position: relative;
+  color:#fff;
 	font-size: 1.3rem;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 
@@ -125,7 +133,9 @@ section{
 
 .about .content img{
 	float: left;
-	margin-right:0.9rem;
+  position: relative;
+  margin-right:.9rem;
+  margin-left: 0rem;
 }
 
 .connect{
@@ -208,22 +218,6 @@ button{
 	outline: none;
 }
 
-.footer{
-	background: #666666;
-	text-align: center;
-	padding:2.5rem;
-	position: relative;
-	margin-top:5rem;
-	right: 0;
-	left: 0;
-	top:0;
-	width: 100%;
-	color:#fff;
-	border-top:5px solid green;
-}
-
-
-
  .one{
 	background-image: url('../images/portfolio-placeholder.jpg');
 	background-size: cover;
@@ -281,3 +275,17 @@ button{
 			margin-left: 0.9rem;
 		}
 	}
+
+  .footer{
+  	background: #666666;
+  	text-align: center;
+  	padding:2.5rem;
+  	position: relative;
+  	margin-top:55rem;
+  	right: 0;
+  	left: 0;
+  	top:0;
+  	width: 100%;
+  	color:#fff;
+  	border-top:5px solid green;
+  }
