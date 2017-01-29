@@ -9,6 +9,7 @@ header {
 
 }
 body{
+	position: relative;
 	background:lightgrey;
 	width: 100%;
 	height: 100%;
@@ -17,7 +18,7 @@ body{
 
 .page-wrap  {
   min-height: 100%;
-  margin-bottom: 142px;
+  margin-bottom: 0 auto -142px;
 
 
 }
@@ -159,6 +160,7 @@ section{
 	width: 2rem;
 	height:2rem;
 	margin-left: 0.7rem;
+	border-radius: 5px;
 
 }
 
@@ -239,13 +241,6 @@ button{
 	background-size: cover;
 }
 
- .five{
-	background-image: url('../images/portfolio-placeholder.jpg');
-	background-size: cover;
-}
-
-
-
 
 
 @media (max-width: 767px){
@@ -280,12 +275,11 @@ button{
   .footer{
   	background: #666666;
   	text-align: center;
-  	padding:2.5rem;
-  	position: relative;
-  	margin-top:55rem;
-  	right: 0;
-  	left: 0;
-  	top:0;
+		position: fixed;
+		padding:2.5rem;
+		height: 6px;
+		left: 0;
+		bottom: 0;
   	width: 100%;
   	color:#fff;
   	border-top:10px solid cadetblue;
