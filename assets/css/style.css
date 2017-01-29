@@ -35,8 +35,8 @@ p{
 }
 
 h1, h2, h3{
-	color:green;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:cadetblue;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 input{
@@ -107,7 +107,7 @@ section{
 }
 
 .logo{
-	background: rgba(133, 200, 197, 1);
+	background: cadetblue;
   display: flex;
   padding: 2rem;
 	margin-left: 10%;
@@ -134,16 +134,17 @@ section{
 .about .content img{
 	float: left;
   position: relative;
-  margin-right:.9rem;
+  margin-right: .9rem;
   margin-left: 0rem;
 }
 
 .connect{
 	width: 270px;
 	border:1px solid #dddddd;
-	padding:0.5rem;
+	padding:.5rem;
 	height: 12rem;
-	background: #fff;
+
+  background: #fff;
 }
 
 .social{
@@ -212,7 +213,7 @@ button{
 	width: 7rem;
 	padding: 0.8rem;
 	border-radius: 4px;
-	background: green;
+	background: cadetblue;
 	border:1px solid lightgrey;
 	color:#fff;
 	outline: none;
@@ -287,5 +288,5 @@ button{
   	top:0;
   	width: 100%;
   	color:#fff;
-  	border-top:5px solid green;
+  	border-top:10px solid cadetblue;
   }
