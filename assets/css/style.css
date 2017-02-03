@@ -113,11 +113,11 @@ section{
 
 .logo{
 	background: cadetblue;
-  display: flex;
-  padding: 2rem;
+  	display: flex;
+  	padding: 2rem;
 	margin-left: 10%;
-  position: relative;
-  color:#fff;
+ 	position: relative;
+  	color:#fff;
 	font-size: 1.3rem;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 
